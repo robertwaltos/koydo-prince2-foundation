@@ -1,0 +1,5 @@
+Initial release of Koydo PRINCE2 Foundation Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

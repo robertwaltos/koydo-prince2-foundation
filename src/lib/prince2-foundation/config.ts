@@ -1,0 +1,45 @@
+// PRINCE2 Foundation Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM158",
+  slug: "prince2-foundation",
+  name: "PRINCE2 Foundation",
+  fullName: "PRINCE2 Foundation",
+  alias: "PRINCE2 Foundation",
+  family: "PRINCE2",
+  category: "Professional certification",
+  subcategory: "Project management",
+  country: "Global",
+  region: "Global",
+  languages: ["English + localizations"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "18-45",
+  targetUser: "Business professional",
+  delivery: "Online/proctored",
+  questionTypes: ["MCQ"],
+  adaptivity: "Linear",
+  sections: "60 questions",
+  scoringMode: "Pass/fail",
+  essayOrSpeaking: "No",
+  ipRisk: "Medium",
+  contentReuse: "business_operations",
+  uiEngine: "timed_objective",
+  monetizationPotential: "Medium",
+  tier: "Tier 6",
+  launchWave: "Wave 8",
+  themeColor: "#7C3AED",
+  themeColorDark: "#6D28D9",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
