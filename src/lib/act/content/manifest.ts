@@ -20,7 +20,7 @@ export interface TopicManifest {
   title: string;
   icon: string;
   color: string;
-  questionTarget: number;
+  minQuestionCount: number;
   activityTypes: ActivityType[];
 }
 
@@ -44,7 +44,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Verbal",
     icon: "📖",
     color: "#1E40AF",
-    questionTarget: 900,
+    minQuestionCount: 900,
     activityTypes: ["multiple_choice", "reading_passage", "cloze_deletion"],
   },
   {
@@ -53,7 +53,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Quantitative",
     icon: "🔢",
     color: "#7C3AED",
-    questionTarget: 900,
+    minQuestionCount: 900,
     activityTypes: ["multiple_choice", "numeric_input", "whiteboard"],
   },
   {
@@ -62,7 +62,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Writing",
     icon: "✍️",
     color: "#D97706",
-    questionTarget: 500,
+    minQuestionCount: 500,
     activityTypes: ["essay"],
   }
   ],
